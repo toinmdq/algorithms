@@ -5,5 +5,4 @@ const runningSumOf1dArray = (nums: number[]): number[] => {
 		, [] as number[])
 };
 
-const result = runningSumOf1dArray([ 1, 2, 3, 4 ]);
-console.log(result);
+console.log(runningSumOf1dArray([ 1, 2, 3, 4 ]));

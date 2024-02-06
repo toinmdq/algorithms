@@ -24,5 +24,4 @@ const firstUniqueCharacter2 = (s: string): number => {
 	return -1;
 };
 
-const result = firstUniqueCharacter2('dddccdbba');
-console.log(result);
+console.log(firstUniqueCharacter2('dddccdbba'));
