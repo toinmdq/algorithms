@@ -1,5 +1,5 @@
 
-const fizzBuzz = (n: number): string[] => {
+const problem412 = (n: number): string[] => {
 	return Array.from({ length: n }, (_, i) => {
 		const index = i + 1;
 		const fizz = index % 3 === 0 ? 'Fizz' : '';
@@ -9,4 +9,4 @@ const fizzBuzz = (n: number): string[] => {
 
 };
 
-console.log(fizzBuzz(15));
+console.log(problem412(15));

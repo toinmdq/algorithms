@@ -7,7 +7,7 @@ This repository contains a collection of public algorithms implemented in Node.j
 Before running any of the algorithms, make sure you have Node.js installed on your system. Then, clone this repository and install the dependencies:
 
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/toinmdq/algorithms
 cd your-repository-directory
 npm install
 ```
@@ -23,6 +23,10 @@ node src/{algorithm-name}.ts
 Replace `{algorithm-name}` with the name of the algorithm you wish to run.
 
 ## Available Algorithms
+
+- **LeetCode**
+
+  - Dynamic Programming
 
 - **Sorting Algorithms**
 

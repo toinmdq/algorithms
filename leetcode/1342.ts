@@ -1,5 +1,5 @@
 
-function numberOfSteps(num: number): number {
+function problem1342(num: number): number {
 	let steps = 0;
 	while (num > 0) {
 		if ((num % 2) !== 0) {
@@ -12,4 +12,4 @@ function numberOfSteps(num: number): number {
 	return steps;
 };
 
-console.log(numberOfSteps(15))
+console.log(problem1342(15))

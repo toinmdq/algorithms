@@ -1,5 +1,5 @@
 
-const firstUniqueCharacter = (s: string): number => {
+const problem387 = (s: string): number => {
 	const result = [ ...s ].map((ch, index) => {
 		if (s.slice(index + 1).concat(s.slice(0, index)).includes(ch)) return -1;
 		return index;
@@ -8,11 +8,11 @@ const firstUniqueCharacter = (s: string): number => {
 	return found;
 };
 
-firstUniqueCharacter('dddccdbba');
+problem387('dddccdbba');
 
 
 // HASHMAP
-const firstUniqueCharacter2 = (s: string): number => {
+const problem387b = (s: string): number => {
 
 	const count: Record<string, number> = {};
 	for (let i = 0; i < s.length; i++) {
@@ -24,4 +24,4 @@ const firstUniqueCharacter2 = (s: string): number => {
 	return -1;
 };
 
-console.log(firstUniqueCharacter2('dddccdbba'));
+console.log(problem387b('dddccdbba'));
