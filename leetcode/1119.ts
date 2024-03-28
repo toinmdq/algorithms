@@ -1,9 +1,13 @@
 
-function removeVowels(s: string): string {
-	return [ ...s ].reduce((pre, cur) => {
-		if (cur === 'a' || cur === 'e' || cur === 'i' || cur === 'o' || cur === 'u') return pre;
-		return pre + cur;
-	}, '')
-};
+/*
+Given a string s, remove the vowels 'a', 'e', 'i', 'o', and 'u' from it, and return the new string.
+*/
 
-console.log(removeVowels('opiausdfoiuasfdoiusadfoisudf'));
+export const removeVowels = (s: string): string => {
+	let array: string = '';
+	for (let i = 0; i < s.length; i++) {
+		if ([ 'a', 'e', 'i', 'o', 'u' ].includes(s[ i ])) continue;
+		array += s[ i ];
+	}
+	return array;
+};
