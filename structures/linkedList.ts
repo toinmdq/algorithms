@@ -75,7 +75,7 @@ class LinkedList {
 			console.log('List is empty');
 		} else {
 			let curr = this.head;
-			let listValues = [];
+			let listValues: number[] = [];
 			while (curr) {
 				listValues.push(curr.value);
 				curr = curr.next;

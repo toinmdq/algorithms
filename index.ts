@@ -1,6 +1,6 @@
 
-import { isPalindrome } from './leetcode/9';
+import { romanToInt } from './leetcode/13';
 
 console.log(
-	isPalindrome(13231)
+	romanToInt('MCMXCIV')
 );
